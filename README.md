@@ -6,7 +6,7 @@ Esse desafio tem o objetivo de testar algumas habilidades em Data Science.
 
 ## O desafio
 
-O desafio consiste em desenvolver a solução para três problemas de Data Science, Regressão, Classificação e Clusterização.
+O desafio consiste em desenvolver a solução para três problemas de Data Science: Regressão, Classificação e Clusterização.
 
 ### REGRESSÃO
 
@@ -19,6 +19,7 @@ Usando uma lista de (cliente, loja, valor da compra) para treinar seu algoritmo,
 Seu algoritmo deve estar preparado para receber uma lista de clientes, loja para teste. 
 
 Base para treinamento: [base_regressao.csv](bases/base_regressao.csv) 
+
 Descrição das colunas: 
 - cliente: número inteiro identificador do cliente 
 - loja: número inteiro identificador da loja 
@@ -36,6 +37,7 @@ Usando uma lista com data de nascimento, sexo e um label de classificação de p
 Seu algoritmo deve estar preparado para receber uma lista de data de nascimento e sexo para teste.
 
 Base para treinamento: [base_classificacao.csv](bases/base_classificacao.csv) 
+
 Descrição das colunas: 
 - dt_nascimento: data no formato YYYY-MM-DD 
 - sexo: letra representando o sexo do cliente 
@@ -51,6 +53,7 @@ Usando uma lista com o cliente, frequência de uso do cartão, valor médio e n�
 **OUTPUT** lista de cada cliente e seu cluster 
 
 Base para treinamento: [base_clusterizacao.csv](bases/base_clusterizacao.csv) 
+
 Descrição das colunas: 
 - cliente: número identificador do cliente 
 - %cartao: número inteiro representando a porcentagem de uso do cartão nas compras 
